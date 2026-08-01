@@ -1,22 +1,55 @@
 aid: peribit
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peribit.png
 name: Peribit
-description: Peribit is a company surfaced as a portfolio company of mayfield and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Peribit (Peribit Networks) was a wide-area network (WAN) acceleration and
+  optimization company backed by Mayfield. It built appliances that reduced
+  bandwidth consumption and accelerated application performance across
+  enterprise WAN links. Peribit Networks was acquired by Juniper Networks in
+  2005 and is listed as an exited "Milestone" company in the Mayfield
+  portfolio. The company is defunct: it has no active corporate website,
+  developer portal, public API, SDKs, or other machine-readable surface. This
+  API Evangelist profile was created as a VC-portfolio stub for enrichment; the
+  enrichment pass confirmed there is no live API or developer surface to
+  catalog.
 url: https://raw.githubusercontent.com/api-evangelist/peribit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-status: defunct
+x-acquired-by: Juniper Networks
 x-backed-by:
 - mayfield
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Networking
+- WAN Optimization
+- Enterprise
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
